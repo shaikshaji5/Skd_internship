@@ -1,0 +1,53 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+/* 
+.container{
+    width: 50%;
+    height: 50vh;
+    border: 10px solid green;
+    overflow: hidden;
+
+} */
+.webgl
+{
+    background-color: rgb(119, 119, 119);
+    position: inherit;
+    top: 0;
+    left: 0;
+    right:50%;
+
+    /* background-color: aqua; */
+   
+    outline: none;
+}
+h1{
+    z-index: +10;
+    position: absolute;
+    top:2%;
+    left:10%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+button{
+    background-color: rgb(142, 142, 247);
+    position: absolute;
+    left:10%;
+    top:20%;
+    border-radius: 5px;
+
+
+}
+input {
+    position: absolute;
+    top: 10%;
+    left:10%;
+    z-index: +100;
+}
